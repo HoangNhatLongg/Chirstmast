@@ -190,13 +190,13 @@ $(document).ready(function () {
 
                     $(".message").typed({
                         strings: [
-                            "<<< Merry Christmas >>>",
-                            "NPV",
+                            "<< Merry Christmas >>",
+                            "Chúc bạn một mùa Giáng Sinh an lành, ấm áp và tràn ngập niềm vui bên gia đình, bạn bè. Chúc bạn luôn khỏe mạnh, hạnh phúc và gặp thật nhiều may mắn.",
                         ],
                         typeSpeed: 1,
                         startDelay: 500,
                         backSpeed: 50,
-                        backDelay: 500,
+                        backDelay: 800,
                         loop: true,
                         contentType: 'html',
                         showCursor: false

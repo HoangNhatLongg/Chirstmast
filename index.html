@@ -392,7 +392,9 @@
     <script>
         const CORRECT_PASSWORD = "110905"; 
         const CORRECT_PASSWORD1 = "100105";
-        const CORRECT_PASSWORD2 = "123456";
+        const CORRECT_PASSWORD2 = "010405";
+        const CORRECT_PASSWORD3 = "221004";
+        const CORRECT_PASSWORD4 = "270905";
         const REDIRECT_URL = "index1.html";
         const REDIRECT_URL1 = "index2.html";
         const REDIRECT_URL2 = "index3.html";
@@ -414,16 +416,12 @@
         }
 
         function checkPass() {
-            if ((input.value === CORRECT_PASSWORD)) {
+            if ((input.value === CORRECT_PASSWORD) || (input.value === CORRECT_PASSWORD1)) {
                 window.location.href = REDIRECT_URL;
             }
-            else if((input.value === CORRECT_PASSWORD1))
+            else if((input.value === CORRECT_PASSWORD2) || (input.value === CORRECT_PASSWORD3))
             {
                 window.location.href = REDIRECT_URL1;
-            }
-            else if((input.value === CORRECT_PASSWORD2))
-            {
-                window.location.href === REDIRECT_URL2;
             }
             else {
                 errorText.textContent = "Sai mật khẩu!";

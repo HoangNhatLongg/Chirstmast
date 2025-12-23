@@ -191,12 +191,12 @@ $(document).ready(function () {
                     $(".message").typed({
                         strings: [
                             "<<< Merry Christmas >>>",
-                            "TT",
+                            "Giáng sinh đến rồi. Trân trọng thông báo: Tao chấp nhận các món quà từ tiền mặt đến chuyển khoản. Đừng ngại ngày lễ đông đúc mà cứ gửi đi, tao nhận hết. Chúc Giáng sinh an lành.",
                         ],
                         typeSpeed: 1,
                         startDelay: 500,
                         backSpeed: 50,
-                        backDelay: 500,
+                        backDelay: 800,
                         loop: true,
                         contentType: 'html',
                         showCursor: false
